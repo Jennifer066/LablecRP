@@ -1,17 +1,31 @@
 /*Aquí comienza el cuerpo de la página y tamaño*/
 }
-html, body { min-height: 100%; }
+html{ min-height: 100%; }
 
 body {
+    min-height: 100%;
 	background-color: #ffffff;
 	color: #000000;
 	font-family: 'Arial';
 	font-size: 62.5%;
 	padding: 0 20px;
 	box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 40
 }
 /*Pie de página no funciona*/
-#footer {
+.footer{
+
+position: relative;
+bottom: 0;
+width:auto;
+height: 130px;
+background: #B1DDA4;
+text-align: center;
+color:white;
+
+}
+/* #footer {
 	background-color: #2e8b57 ;
 	background-image: linear-gradient(to bottom, transparent, #0009);
 	border-top: 1px solid #fff3;
@@ -38,7 +52,7 @@ body {
 }
 #footer ul li {
 	padding: 0 .5em;
-}
+} */
 
 /*Primer color de fondo en menú*/
 .links {
@@ -67,12 +81,7 @@ body {
 }
 
 /* The Magic */
-#header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-}
+
 .links {
 	display: grid;
 	grid-template-columns: repeat(var(--items), 1fr);
@@ -105,13 +114,6 @@ body {
 
 
 }
-body{font-family: 'Arial';
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.5em;
-    background: #000000;
-    margin:  0;
-    padding: 0;}
 p{
     font-size: 25px;
     color:#000000;
