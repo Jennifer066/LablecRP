@@ -45,22 +45,49 @@ transform: translate(-50%, -50%);
 
 -------------------------------------------
 /**/
+
+.bc{width: 800px; margin-left: auto; margin-right: auto; text-align: center;}
+
+.der2{
+    width: 300px;
+    float: right;
+    height: auto;
+    text-align: right;
+}
+
+.izq2{
+    width: 300px;
+    float: left;
+    text-align: left;
+}
 -------------------------------------------
 body{
   margin: 0px;
   padding: 0px;
   background: #FFFFFF;
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
 }
 
-h1{
+.a h1{
   /*margin: 2em 0px;*/
   padding: 0px;
   color: #000;
   text-align: center;
   font-weight: 100;
   font-size: 30px;
-}
+  font-family: sans-serif;
+    }
+.izq2 h1{
+    color: #000;
+    font-size:20px;
+    font-family: sans-serif;
+    }
+.der2 h1{
+    color: #000;
+    font-size:20px;
+    font-family: sans-serif;
+    }
+
 
 nav{
   width: 360px;
@@ -100,6 +127,8 @@ ul.dropdown li a {
   text-align: center;
   text-decoration: none;
   font-weight: 300;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 ul.dropdown li a:hover,
@@ -148,9 +177,6 @@ ul.dropdown ul li a{
     float: left;
 }
 /*Estilos del Footer*/
-bloquote{font-size: 20px;
-    color: #0000FF;
-    font-family:arial; }
 .footer{
 
 position: relative;
@@ -173,6 +199,9 @@ color:white;
     width: 200px;
     float: left;
 }
+----------------------------------------------
+.centra2 img{width: 500px; height: 375px;}
+.centra2 {width: auto; margin-left: auto; margin-right: auto; text-align:center;}
 
 
 /*img {
